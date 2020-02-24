@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/*抬頭 開始*/
+.paging-sign{width:100%;height:auto;max-width:1920px;min-height:350px;background-size:cover;pbackground-position:center;margin-top: 105px;}
+.paging-sign.about{background:url("../images/about/about-us-title-sign.png") no-repeat;}
+.paging-sign.product{background:url("../images/product/product-title-sign.png") no-repeat;}
+.paging-sign.case{background:url("../images/case/case-title-sign.png") no-repeat;}
+.paging-sign.conact{background:url("../images/conact/conact-title-sign.png") no-repeat;}
+/*抬頭 結束*/
+
+/*內容 開始*/
+.paging-detail-block{width:950px;height:auto;display:block;margin:0 auto;}
+.paging-detail-block.product-detail{width:1150px;}
+.main-block.paging{height:auto;padding-top:60px!important;}
+.main-blue-block.paging{width:950px;margin:0 auto;margin-top:30px;}
+.main-blue-block.product-detail{width:1150px;margin:0 auto;margin-top:30px;margin-bottom:130px;padding-bottom:0px!important ;}
+.main-blue-block.license{width:950px;margin:0 auto;margin-top:30px;background:rgba(0,87,161,0.3);border:1px solid rgba(255,255,255,0.3);padding-bottom:75px!important;}
+.title-slash{width:auto;height:auto;position:absolute;margin-left:50px;}
+
+.paging-detail-tittle{width:auto;height:auto;display:block;}
+.paging-detail-tittle.zh{font-size:40px;color:#007ab6;letter-spacing:10px;}
+.paging-detail-tittle.en{font-size:25px;color:#0057a1;letter-spacing:3px;}
+.paging-detail-tittle.zh.license{color:#fff000;}
+.paging-detail-tittle.en.license{color:#ffffff;}
+
+.paging-service-block{width:auto;padding:0 25px!important;display:block;margin:0 auto;padding-top:70px!important;}
+.paging-service{width:auto;height:85px;float:left;}
+.paging-service-icon{width:83px;height:83px;border:1px solid #007ab6;border-radius:500px;margin-right:15px;float:left;}
+.paging-service-word{width:auto;height:85px;float:left;}
+.paging-service-word>h5{color:#007ab6;}
+.paging-service-word>h6{color:rgba(0,0,0,0.5);}
+
+.paging-license-bg{width:100%;height:800px;background:url("../images/about/about-us-license-bg.png") no-repeat;background-position:center;margin-top:150px;}
+.paging-license-block{width:890px;height:370px;display:block;padding:0 30px!important;padding-top:25px!important;margin:0 auto!important;}
+.paging-license-block>div:nth-child(1)>img{margin-right: 30px!important;}
+.paging-license-block>div:nth-child(2)>img{margin-right: 30px!important;}
+.paging-license-block>div:nth-child(3)>img:nth-child(1){margin-bottom:10px!important;}
+
+.paging-product-menu-btn{width:auto;height:40px;border-radius:7px;background:#d5d5d5;color:#999999;font-size:18px;text-align:center;line-height:20px;text-decoration:none;transition:all 0.3s;padding:10px 15px!important;float:left;margin-right:10px;}
+.paging-product-menu-btn:nth-last-child(1){margin-right:0px;}
+.paging-product-menu-btn:hover{background:#0057a1;color:#fff000;text-decoration:none;}
+.paging-product-menu-btn:active{background:#0057a1;color:#fff000;text-decoration:none;}
+.paging-product-menu-btn.active{background:#0057a1;color:#fff000;text-decoration:none;}
+
+.paging-product-main-block{width:1150px;height:auto;padding-left:100px!important;padding-right:50px;}
+.paging-product-main-area{margin-bottom:100px!important;}
+.paging-product-main-bg{width:450px;height:460px;float:left;background:url("../images/product/product-main-bg.png") no-repeat;background-size:cover;}
+.paging-product-main-bg>img{position:absolute;margin-left:-20px;margin-top:-50px;}
+.paging-product-main-word-block{width:200px;height:410px;float:right;font-size:18px;font-weight:lighter;margin-top:50px;}
+.paging-product-main-word{width:100%;height:auto;float:left;color:white;}
+.paging-product-main-word.bold{font-weight:bold;}
+.paging-product-main-word.main{margin:30px 0;}
+
+.paging-case-main-pic-block{display:block;margin:50px auto;}
+.paging-case-main-pic-block>div:nth-child(2){width:56px;height:280px;float:left;}
+.paging-case-main-pic-bg{width:500px;height:280px;background:url("../images/case/case-main-pic.png") no-repeat;float:left;}
+.paging-case-main-pic-bg>img:nth-child(1){width:450px;height:252px;display:block;margin:0 auto;position:relative;transform:translateY(-50%);top:50%;}
+.paging-case-main-pic-arrow{width:auto;height:auto;position:absolute;z-index:9;margin-top:100px;margin-left:-70px;}
+
+.paging-case-main-pic-word{width:400px;height:280px;float:left;}
+.paging-case-main-pic-word>h4{color:rgba(0,0,0,1);}
+.paging-case-main-pic-word>h5{color:rgba(0,0,0,0.5);margin-top:15px;margin-bottom:80px;}
+.paging-case-main-pic-word>h5>span:nth-child(1){margin-right:15px}
+.paging-case-main-pic-word>h6{color:rgba(0,0,0,0.8);line-height:30px;}
+.paging-case-main-pic-word>img{width:133px;height:87px;position:absolute;margin-left:110px;margin-top:50px;}
+
+.paging-conact-logo{width:370px;height:370px;float:left;background:#0057a1;margin-right:50px;}
+.paging-conact-logo>img{width:290px;height:auto;float:none;display:block;margin:70px auto;}
+
+.paging-conact-detail-block{width:435px;height:370px;float:left;}
+.paging-conact-detail-block{width:435px;height:370px;float:left;}
+.paging-conact-detail-map{width:100%;height:202px;float:left;background:#0057a1;margin-bottom: 15px;}
+.paging-conact-detail-map>img{width:425px;height:192px;display:block;margin:5px 5px;}
+.paging-conact-detail-word{width:100%;height:auto;float:left;margin:3px 0;}
+.paging-conact-detail-word>h6{color:#333333;letter-spacing:2px;}
+.paging-conact-detail-word>img{width:auto;height:auto;float:left;margin-right:10px;}
+
+.paging-conact-input{border:1px solid #0057a1;box-sizing: border-box;background:rgba(255,255,255,0);padding-left:10px;color:#007ab6;font-size:18px;margin-bottom:30px;-moz-border-radius:0px;-webkit-border-radius:0px;border-radius:0px;outline:none;float:left;}
+.paging-conact-input.basic{width:49%;height:50px;line-height:50px;}
+.paging-conact-input.basic:nth-child(1){margin-right:1%;}
+.paging-conact-input.basic:nth-child(3){margin-right:1%;}
+
+.paging-conact-input.message{width:100%;height:230px;padding-top:7px;resize: none;}
+
+.paging-conact-send-btn{width:250px;height:50px;background:#0057a1;color:#fff000;line-height:50px;text-align:center;border:none;border-radius:5px;float:left;position:relative;transform:translateX(-50%);left:50%;outline:none;cursor:pointer;transition:all 0.3s;}
+.paging-conact-send-btn:hover{background:#015093;}
+
+ ::-webkit-input-placeholder {color:#007ab6; }
+/*Firefox 4-18瀏覽器專用*/
+ input::-moz-placeholder {color:#007ab6;}
+/*Firefox 19+瀏覽器專用*/
+ input::-moz-placeholder{color:#007ab6;}
+/*IE10瀏覽器專用*/
+:-ms-input-placeholder{color:#007ab6;}
+
+/*內容 結束*/
+
+
