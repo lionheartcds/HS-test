@@ -3,90 +3,94 @@
 
 
 /*抬頭 開始*/
-.paging-sign{width:100%;height:auto;max-width:1920px;min-height:350px;background-size:cover;pbackground-position:center;margin-top: 105px;}
+.paging-sign{width:100%;height:auto;min-height:485px;background-size:cover!important;background-position:center!important;}
 .paging-sign.about{background:url("../images/about/about-us-title-sign.png") no-repeat;}
-.paging-sign.product{background:url("../images/product/product-title-sign.png") no-repeat;}
+.paging-sign.service{background:url("../images/service/service-title-sign.png") no-repeat;}
 .paging-sign.case{background:url("../images/case/case-title-sign.png") no-repeat;}
-.paging-sign.conact{background:url("../images/conact/conact-title-sign.png") no-repeat;}
+.paging-sign.contact{background:url("../images/contact/contact-title-sign.png") no-repeat;}
 /*抬頭 結束*/
 
+/*關於我們 開始*/
+.main-block.license{margin-top:50px;}
+.paging-about-license-left-deepblue{width:50%; height:580px;float:left;background:#014e8f;background-size:cover;position:absolute;left:0px;}
+.paging-about-license-right-blue{width:50%; height:580px;float:left;background:#0057a1;background-size:cover;position:absolute;left:50%;}
+.paging-about-license-title-block>div{width:250px;height:165px;float:left;margin-top:65px;}
+.paging-about-license-block{width:100%;height:auto;float:left;}
+.paging-about-license-word-block{width:820px;height:450px;float:left;padding:65px 65px;background:#0057a1;position: relative;}
+.paging-about-license-word-block>div{width:auto;height:auto;float:left;text-align:left;font-size:20px;line-height:35px;color:white;;}
+.paging-about-license-title-block{width:320px;height:580px;float:left;background:#014e8f;position: relative;}
+.paging-about-license-title-block>div{width:250px;height:165px;float:left;padding:30px 0;}
+.paging-about-license-title-sub{width:110px;height:25px;background:#fff000;text-align:center;line-height: 26px;color:#0057a1;font-size:16px;display:block;letter-spacing:1px;margin-bottom:10px;}
+.paging-about-license-title-word{width:auto;height:auto;display:block;color:white;margin-bottom:35px;}
+.paging-about-license-title-word>span:nth-child(1){font-size:45px;line-height:35px;}
+.paging-about-license-title-word>span:nth-child(2){font-size:20px;}
+.paging-about-license-title-word>span:nth-child(3){font-size:35px;}
+.paging-about-license-title-line{width:135px;height:5px;display:block;background:#fff000;}
+.paging-about-license-main{width:100%;height:320px;margin-top:70px;float:left;}
+.paging-about-license-main>img{width:auto;height:auto;float:left;margin-right:25px;}
+.paging-about-license-main>img:nth-last-child(1){margin-right:0px;}
+/*關於我們 結束*/
+
+/*服務項目 開始*/
+.main-about-word-block.service{height:260px;}
+.main-about-title-block.service{height:260px;margin:0px;}
+.main-about-right-gray.service{height:260px;}
+.main-about-left-white.service{height:260px}
+.paging-service-main-block{width:100%;height:auto;float:left;margin-top:20px;}
+.paging-service-main-block>div{width:100%;height:auto;float:left;margin-top:40px;}
+.paging-service-main-block>div>div{width:390px;height:300px;float:left;margin-right:55px;}
+.paging-service-main-block>div>div:nth-last-child(1){margin-right:0px;}
+.paging-service-main-block>div>div>div{width:100%;height:200px;float: left;}
+.paging-service-main-block>div>div>img{width:auto;height:auto;display:block;margin:0 auto;position:relative;transform:translateY(-50%);top:50%;}
+.paging-service-main-block>div>div>span{width:100%;height:100px;float:left;font-size:16px;line-height:30px;color:#555555;text-align:center;}
+/*服務項目 結束*/
+
+/*case 開始*/
+.outline.case-main{margin-top:30px;}
+.paging-case-main-block{width:100%;height:240px;float:left;margin-top:20px;}
+.paging-case-main-bgarea{width:50%;height:240px;float:left;position:absolute;left:0px;}
+.paging-case-main-bgarea.right{left:50%;}
+.paging-case-main-bgarea.blue{background:#0057a1;}
+.paging-case-main-pic{width:600px;height:200px;float:left;padding:20px;position:relative;}
+.paging-case-main-pic.right{float:right;}
+.paging-case-main-pic>img{width:600px;height:200px;float:left;}
+.paging-case-main-word{width:400px;height:240px;float:left;padding:20px;border:1px solid #0057a1;box-sizing: border-box;position:relative;}
+.paging-case-main-word.right{float:right;}
+.paging-case-main-word>div:nth-child(1){width:100%;height:auto;float:left;margin-bottom:15px;font-size:18px;color:#333333;line-height:18px;}
+.paging-case-main-word>div:nth-child(2){width:100%;height:auto;float:left;margin-bottom:50px;font-size:16px;color:#555555;line-height:14px;}
+.paging-case-main-word>div:nth-child(2)>span{margin-right:10px;}
+.paging-case-main-word>div:nth-child(3){width:100%;height:auto;float:left;font-size:14px;color:#555555;line-height:25px;}
+/*case 結束*/
+
+
+/*聯絡我們 開始*/
+.main-about-word-block.contact{height:450px;}
+.main-about-word-block.contact>div{transform:none;top:0%;margin-top:50px;}
+.main-about-title-block.contact{height:450px;}
+.main-about-title-block.contact>div{transform:none;top:0%;margin-top:50px;}
+.main-about-right-gray.contact{height:450px;}
+.main-about-left-white.contact{height:450px}
+.paging-contact-info-block{width:100%;height:200px;float:left;margin-top:40px;}
+.paging-contact-info-block>img{width:360px;height:200px;float:left;margin-right:15px;}
+.paging-contact-info-block>div{width:510px;height:170px;padding-top:30px;float:left;}
+.paging-contact-info-block>div>div{width:100%;height:25px;float:left;line-height:25px;margin-bottom:15px;letter-spacing:1px;font-size:16px;}
+.paging-contact-info-block>div>div>img{margin-right:10px;}
+.paging-contact-info-block>div>div:nth-last-child(1){margin-bottom:0px;}
+.paging-contact-info-block>div>div>span>i:nth-last-child(1){margin-left:32px;}
+.paging-contact-input-block{width:100%;height:auto;float:left;margin-top:10px;}
+.paging-contact-input-block>div:nth-child(1){width:560px;height:255px;float:left;margin-right:15px;}
+.paging-contact-input-block>div:nth-child(2){width:705px;height:255px;float:left;}
+.paging-contact-input{border:1px solid #0057a1;box-sizing: border-box;background:rgba(255,255,255,0);padding-left:10px;color:#007ab6;font-size:18px;margin-bottom:18px;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;outline:none;float:left;}
+.paging-contact-input.basic{width:100%;height:50px;line-height:50px;}
+
+.paging-contact-input.message{width:100%;height:255px;padding-top:7px;resize: none;}
+
+.paging-contact-send-btn{width:180px;height:50px;background:#0057a1;color:#fff000;line-height:50px;text-align:center;border:none;border-radius:5px;float:left;outline:none;cursor:pointer;transition:all 0.3s;font-size:20px;position: relative;left:50%;margin-left:-90px;margin-top:50px;}
+.paging-contact-send-btn:hover{background:#015093;}
+/*聯絡我們 結束*/
+
+
 /*內容 開始*/
-.paging-detail-block{width:950px;height:auto;display:block;margin:0 auto;}
-.paging-detail-block.product-detail{width:1150px;}
-.main-block.paging{height:auto;padding-top:60px!important;}
-.main-blue-block.paging{width:950px;margin:0 auto;margin-top:30px;}
-.main-blue-block.product-detail{width:1150px;margin:0 auto;margin-top:30px;margin-bottom:130px;padding-bottom:0px!important ;}
-.main-blue-block.license{width:950px;margin:0 auto;margin-top:30px;background:rgba(0,87,161,0.3);border:1px solid rgba(255,255,255,0.3);padding-bottom:75px!important;}
-.title-slash{width:auto;height:auto;position:absolute;margin-left:50px;}
-
-.paging-detail-tittle{width:auto;height:auto;display:block;}
-.paging-detail-tittle.zh{font-size:40px;color:#007ab6;letter-spacing:10px;}
-.paging-detail-tittle.en{font-size:25px;color:#0057a1;letter-spacing:3px;}
-.paging-detail-tittle.zh.license{color:#fff000;}
-.paging-detail-tittle.en.license{color:#ffffff;}
-
-.paging-service-block{width:auto;padding:0 25px!important;display:block;margin:0 auto;padding-top:70px!important;}
-.paging-service{width:auto;height:85px;float:left;}
-.paging-service-icon{width:83px;height:83px;border:1px solid #007ab6;border-radius:500px;margin-right:15px;float:left;}
-.paging-service-word{width:auto;height:85px;float:left;}
-.paging-service-word>h5{color:#007ab6;}
-.paging-service-word>h6{color:rgba(0,0,0,0.5);}
-
-.paging-license-bg{width:100%;height:800px;background:url("../images/about/about-us-license-bg.png") no-repeat;background-position:center;margin-top:150px;}
-.paging-license-block{width:890px;height:370px;display:block;padding:0 30px!important;padding-top:25px!important;margin:0 auto!important;}
-.paging-license-block>div:nth-child(1)>img{margin-right: 30px!important;}
-.paging-license-block>div:nth-child(2)>img{margin-right: 30px!important;}
-.paging-license-block>div:nth-child(3)>img:nth-child(1){margin-bottom:10px!important;}
-
-.paging-product-menu-btn{width:auto;height:40px;border-radius:7px;background:#d5d5d5;color:#999999;font-size:18px;text-align:center;line-height:20px;text-decoration:none;transition:all 0.3s;padding:10px 15px!important;float:left;margin-right:10px;}
-.paging-product-menu-btn:nth-last-child(1){margin-right:0px;}
-.paging-product-menu-btn:hover{background:#0057a1;color:#fff000;text-decoration:none;}
-.paging-product-menu-btn:active{background:#0057a1;color:#fff000;text-decoration:none;}
-.paging-product-menu-btn.active{background:#0057a1;color:#fff000;text-decoration:none;}
-
-.paging-product-main-block{width:1150px;height:auto;padding-left:100px!important;padding-right:50px;}
-.paging-product-main-area{margin-bottom:100px!important;}
-.paging-product-main-bg{width:450px;height:460px;float:left;background:url("../images/product/product-main-bg.png") no-repeat;background-size:cover;}
-.paging-product-main-bg>img{position:absolute;margin-left:-20px;margin-top:-50px;}
-.paging-product-main-word-block{width:200px;height:410px;float:right;font-size:18px;font-weight:lighter;margin-top:50px;}
-.paging-product-main-word{width:100%;height:auto;float:left;color:white;}
-.paging-product-main-word.bold{font-weight:bold;}
-.paging-product-main-word.main{margin:30px 0;}
-
-.paging-case-main-pic-block{display:block;margin:50px auto;}
-.paging-case-main-pic-block>div:nth-child(2){width:56px;height:280px;float:left;}
-.paging-case-main-pic-bg{width:500px;height:280px;background:url("../images/case/case-main-pic.png") no-repeat;float:left;}
-.paging-case-main-pic-bg>img:nth-child(1){width:450px;height:252px;display:block;margin:0 auto;position:relative;transform:translateY(-50%);top:50%;}
-.paging-case-main-pic-arrow{width:auto;height:auto;position:absolute;z-index:9;margin-top:100px;margin-left:-70px;}
-
-.paging-case-main-pic-word{width:400px;height:280px;float:left;}
-.paging-case-main-pic-word>h4{color:rgba(0,0,0,1);}
-.paging-case-main-pic-word>h5{color:rgba(0,0,0,0.5);margin-top:15px;margin-bottom:80px;}
-.paging-case-main-pic-word>h5>span:nth-child(1){margin-right:15px}
-.paging-case-main-pic-word>h6{color:rgba(0,0,0,0.8);line-height:30px;}
-.paging-case-main-pic-word>img{width:133px;height:87px;position:absolute;margin-left:110px;margin-top:50px;}
-
-.paging-conact-logo{width:370px;height:370px;float:left;background:#0057a1;margin-right:50px;}
-.paging-conact-logo>img{width:290px;height:auto;float:none;display:block;margin:70px auto;}
-
-.paging-conact-detail-block{width:435px;height:370px;float:left;}
-.paging-conact-detail-block{width:435px;height:370px;float:left;}
-.paging-conact-detail-map{width:100%;height:202px;float:left;background:#0057a1;margin-bottom: 15px;}
-.paging-conact-detail-map>img{width:425px;height:192px;display:block;margin:5px 5px;}
-.paging-conact-detail-word{width:100%;height:auto;float:left;margin:3px 0;}
-.paging-conact-detail-word>h6{color:#333333;letter-spacing:2px;}
-.paging-conact-detail-word>img{width:auto;height:auto;float:left;margin-right:10px;}
-
-.paging-conact-input{border:1px solid #0057a1;box-sizing: border-box;background:rgba(255,255,255,0);padding-left:10px;color:#007ab6;font-size:18px;margin-bottom:30px;-moz-border-radius:0px;-webkit-border-radius:0px;border-radius:0px;outline:none;float:left;}
-.paging-conact-input.basic{width:49%;height:50px;line-height:50px;}
-.paging-conact-input.basic:nth-child(1){margin-right:1%;}
-.paging-conact-input.basic:nth-child(3){margin-right:1%;}
-
-.paging-conact-input.message{width:100%;height:230px;padding-top:7px;resize: none;}
-
-.paging-conact-send-btn{width:250px;height:50px;background:#0057a1;color:#fff000;line-height:50px;text-align:center;border:none;border-radius:5px;float:left;position:relative;transform:translateX(-50%);left:50%;outline:none;cursor:pointer;transition:all 0.3s;}
-.paging-conact-send-btn:hover{background:#015093;}
-
  ::-webkit-input-placeholder {color:#007ab6; }
 /*Firefox 4-18瀏覽器專用*/
  input::-moz-placeholder {color:#007ab6;}
